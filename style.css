@@ -1,0 +1,39 @@
+footer {
+	font: 16px sans-serif;
+	margin: 180px 40px 0px; 
+	padding: 0px 0px 24px;
+}
+
+#about {
+	width: 400px;
+	height: 165px;
+	float: left;
+}
+
+#address {
+	width: 183px;
+	height: 185px;
+	float: left;
+	margin-left: 50px;
+}
+
+#contact {
+	width: 183px;
+	height: 165px;
+	float: left;
+	margin-left: 50px;
+}
+
+#info {
+	width: 184px;
+	height: 165px;
+	float: left;
+	margin-left: 50px;
+}
+
+#follow_us {
+	width: 184px;
+	height: 165px;
+	float: left;
+	margin-left: 50px;
+}
