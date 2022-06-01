@@ -1,36 +1,4 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-*{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   background-color: #FFFFFF;
-
-}
-li, a,button{
-   font-family: "Montserrat",sans-serif;
-   font-weight: 500;
-   font-size: 16px;
-   color:  #000000;
-   text-decoration: none;
-   
-}
-header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 20px 10%;
-   height: 100px;
-}
-
-.logo {
-   cursor: pointer;
-   margin: -100px;
-   width:120px;
-   height:100px;
-=======
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
  *{
     box-sizing: border-box;
@@ -40,12 +8,11 @@ header {
 
 }
 li, a,button{
-    font-family: "Montserrat",sans-serif;
-    font-weight: 500;
+	@@ -11,19 +13,21 @@ li, a,button{
     font-size: 16px;
     color:  #000000;
     text-decoration: none;
-    
+
 }
 header {
     display: flex;
@@ -60,90 +27,48 @@ header {
     margin: -100px;
     width:120px;
     height:100px;
->>>>>>> c06f3226223b7a64148af21745e002fba98b73ca
 }
 
 .nav_links {
-   list-style: none;
-}
+	@@ -32,25 +36,37 @@ margin-right: auto;
 
 .nav_links li{
-<<<<<<< HEAD
-  display: inline-block;
-   padding: 0px 20px ;
-=======
    display: inline-block;
     padding: 0px 20px ;
->>>>>>> c06f3226223b7a64148af21745e002fba98b73ca
 }
 
 
 .nav_links li a{
-<<<<<<< HEAD
-   transition: all 0.3s ease 0s;
-   margin: 1px;
-  
-}
-
-.nav_links li b{
-   transition: all 0.3s ease 0s;
-margin: 1px;
-  
-=======
     transition: all 0.3s ease 0s;
     margin: 1px;
-   
+
 }
 
 .nav_links li b{
     transition: all 0.3s ease 0s;
 margin: 1px;
-   
->>>>>>> c06f3226223b7a64148af21745e002fba98b73ca
+
 
 }
 
 .nav_links li a:hover {
-   color: #0088a9;
+    color: #0088a9;
 }
 
 .nav_links li b:hover {
-<<<<<<< HEAD
-   color: #0088a9;
-=======
     color: #0088a9;
->>>>>>> c06f3226223b7a64148af21745e002fba98b73ca
 }
 
 
 button {
-<<<<<<< HEAD
-   
-   padding: 9px 25px;
-   margin: -100px;
-   background-color: rgba(0, 136, 169,1);
-   border: none;
-   border-radius: 50px;
-   cursor: pointer;
-   transition: all 03s ease 0s;
-}
 
-button:hover{
-   background-color: #rgb(0, 136, 169,0.8);
-}
-=======
-    
     padding: 9px 25px;
     margin: -100px;
     background-color: rgba(0, 136, 169,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 03s ease 0s;
-}
-
+	@@ -60,3 +76,4 @@ button {
 button:hover{
     background-color: #rgb(0, 136, 169,0.8);
 }
-
->>>>>>> c06f3226223b7a64148af21745e002fba98b73ca
