@@ -15,14 +15,12 @@
 	width: 983.75px;
 	height: 410px;
 	left: 0px;
-	float: left;
 }
 
 #right_shoes1{
 	display: block;
 	cursor: pointer;
 	width: 293.25px;
-	float: right;
 }
 
 footer {
