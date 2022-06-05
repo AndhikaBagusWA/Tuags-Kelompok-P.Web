@@ -1,3 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+#main {
+	width: 1349px;
+}
+
+#awal {
+	width: 1269px;
+}
+
+#shoes1{
+	cursor: pointer;
+	width: 983.75px;
+	height: 410px;
+	left: 0px;
+	float: left;
+}
+
+#right_shoes1{
+	display: block;
+	cursor: pointer;
+	width: 293.25px;
+	float: right;
+}
+
 footer {
 	font: 16px sans-serif;
 	margin: 180px 40px 0px; 
