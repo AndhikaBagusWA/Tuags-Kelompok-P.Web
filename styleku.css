@@ -16,11 +16,14 @@
 .topnav div > ul > li {
   list-style:none;
   float: left;
-  display: block;
+  display: flex-box;
   height:100%;
   margin:0px;
   text-align: center;
   padding: 14px 16px;
+}
+.search {
+    margin-right: auto;
 }
 
 .topnav ul li a{
@@ -76,6 +79,8 @@
 
 }
 
+
+
 @media screen and (max-width: 640px) {
     .topnav div > ul{
         position : absolute;
@@ -118,7 +123,7 @@
         right: 0;
         top: 0;
     }
-    
+   
     .topnav ul li ul {
         position:relative;
         display: block;
@@ -131,3 +136,65 @@
         padding-left:40px;
     }
   }
+
+  * {
+    box-sizing: border-box;
+}
+
+#tengah {
+    width: 1349px;
+}
+
+#awal {
+    width: 1269px;
+}
+
+#shoes1{
+    cursor: pointer;
+    width: 98px;
+    height: 410px;
+    left: 0px;
+}
+
+#right_shoes1{
+    display: block;
+    cursor: pointer;
+    width: 293.25px;
+    margin-left: 1210px;
+}
+@media  (min-width: 600px) {
+footer {
+
+  display: flex;
+  justify-content: space-between;
+margin: 180px 40px 0px; 
+    padding: 0px 0px 24px;
+}
+
+#about {
+    width: 50%;
+    height: -100px;
+    
+   
+}
+
+#address {
+    width: 30%;
+   
+}
+
+#contact {
+   width: 30%;
+  
+}
+
+#info {
+    width: 30%;
+   
+}
+
+#follow_us {
+    width: 30%;
+
+}
+}
