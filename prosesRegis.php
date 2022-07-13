@@ -1,5 +1,5 @@
 <?php 
-	var_dump($_POST);
+	//var_dump($_POST);
 
 // inisialisasi variabel
 $username = $_POST['username'];
