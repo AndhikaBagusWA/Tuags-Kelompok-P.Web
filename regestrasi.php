@@ -1,18 +1,3 @@
-<?php 
-
-require 'functions.php';
-
-	if (isset($_POST["register"])) {
-		if (registerrasi($_POST) > 0) {
-			echo "<script>
-					alert('registrasi telah dibuat');
-				</script>";
-		}
-		else
-			echo mysql_error($conn);
-	}
- ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,7 +17,10 @@ require 'functions.php';
 		<input type="tezt" name="username" id="username">
 
 		<label for="username">Password: </label>
-		<input type="password" name="password" id="password"><br>
+		<input type="password" name="password" id="password">
+
+		<label for="username">Ulang Password: </label>
+		<input type="password" name="ulang_password" id="password"><br>
 
 		<button type="submit" name="register">Register</button>
 		<button type="reset">Reset</button>
