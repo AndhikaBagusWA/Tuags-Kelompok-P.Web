@@ -1,4 +1,5 @@
 <?php 
+	include('config.php');
 	//var_dump($_POST);
 
 // inisialisasi variabel
@@ -9,12 +10,12 @@ $ulang_password = $_POST['ulang_password'];
 	// cek username apakah sudah terdaftar
 	$user = $conn->query("SELECT * FROM `users` WHERE username = '$username'");
 	
-	for ($users->num_rows > 0) { 
+	if ($user->num_rows > 0) { 
 		$_SESSION['gagal'] = "Username telah terdatar, silahkan gunakan username lain";
 		die();
 	}
 	// cek password
-	for ($password != $ulang_password) { 
+	if ($password != $ulang_password) { 
 		$_SESSION['gagal'] = "Password yang anda masukan tidak sama dengan ulang password";
 		die();
 	}
