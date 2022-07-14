@@ -1,12 +1,12 @@
-<?php 
+<?php
+session_start();
 $servername ="localhost";
-$username = "username";
-$password = "password";
-$ulang_password = "ulang_password";
+$username = "root";
+$password = "";
 $dbname = "pemrogramanweb";
 
 // buat koneksi
-$conn = new mysql($servername,$username,$password,$dbname);
+$conn = new mysqli($servername,$username,$password,$dbname);
 
 // cek koneksi
 if($conn->connect_error){
