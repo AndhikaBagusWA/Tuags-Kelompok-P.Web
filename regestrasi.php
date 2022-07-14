@@ -27,3 +27,5 @@
 	</form>
 </body>
 </html>
+
+<?php include 'notif.php'; ?>
