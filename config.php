@@ -1,6 +1,6 @@
 <?php
 session_start();
-$servername ="localhost";
+$servername ="websiteetq.000webhostapp.com";
 $username = "root";
 $password = "";
 $dbname = "pemrogramanweb";
@@ -13,5 +13,4 @@ if($conn->connect_error){
 	die("Koneksi gagal: " . $conn->connect_error);
 }
 else
-echo "Koneksi berhasil terhubung";
  ?>
