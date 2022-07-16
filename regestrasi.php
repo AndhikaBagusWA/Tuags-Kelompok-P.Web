@@ -6,13 +6,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Registrasi</title>
+	<link rel="stylesheet" type="text/css" href="styleregis.css">
 </head>
-<style type="text/css">
-	label {
-		display: block;
-	}
-</style>
 <body>
+	<div class="formRegis"></div>
 	<h1>Form Regestrasi</h1>
 	<form action="prosesRegis.php" method="post">
 		<label for="username">Username: </label>
