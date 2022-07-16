@@ -1,6 +1,6 @@
 <?php
 session_start();
-$servername ="websiteetq.000webhostapp.com";
+$servername ="files.000webhost.com";
 $username = "root";
 $password = "";
 $dbname = "pemrogramanweb";
