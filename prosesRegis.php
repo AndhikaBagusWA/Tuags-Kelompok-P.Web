@@ -12,11 +12,13 @@ $ulang_password = $_POST['ulang_password'];
 	
 	if ($user->num_rows > 0) { 
 		$_SESSION['gagal'] = "Username telah terdatar, silahkan gunakan username lain";
+		header("Location: regestrasi.php");
 		die();
 	}
 	// cek password
 	if ($password != $ulang_password) { 
 		$_SESSION['gagal'] = "Password yang anda masukan tidak sama dengan ulang password";
+		header("Location: regestrasi.php");
 		die();
 	}
 	// save 
