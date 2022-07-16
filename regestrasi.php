@@ -1,4 +1,5 @@
-include('config.php');
+<?php include('config.php'); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,8 +26,8 @@ include('config.php');
 
 		<button type="submit" name="register">Register</button>
 		<button type="reset">Reset</button>
+		<?php include 'notif.php'; ?>
 	</form>
 </body>
 </html>
 
-<?php include 'notif.php'; ?>
